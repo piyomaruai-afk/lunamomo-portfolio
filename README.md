@@ -88,4 +88,4 @@ IT技術を継続的に学習し、
 ## Contact
 
 GitHub:
-https://github.com/lunamomo123/
+https://github.com/
