@@ -100,7 +100,4 @@ IT技術を継続的に学習し、
 ## Contact
 
 GitHub:
-（URL）
-
-Portfolio:
-（URL）
+（URL）https://github.com/piyomaruai-afk
