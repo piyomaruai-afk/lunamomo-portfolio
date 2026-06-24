@@ -1,0 +1,50 @@
+cyber@xxxxx:~$ cat /etc/os-release
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+cyber@xxxxx:~$ uname -a
+Linux xxxxx 6.8.0-124-generic #124-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 13:00:45 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+cyber@xxxxx:~$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether xx:xx:xx:xx:xx:xx brd ff:ff:ff:ff:ff:ff
+    inet xxx.xxx.xxx.xxx/24 metric 100 brd xxx.xxx.xxx.255 scope global dynamic enp0s3
+       valid_lft 169733sec preferred_lft 169733sec
+    inet6 xxxx::xxxx:xxxx:xxxx:xxxx/64 scope link 
+       valid_lft forever preferred_lft forever
+cyber@xxxxx:~$ ls-la
+ls-la: command not found
+cyber@xxxxx:~$ ls -la
+total 152
+drwxr-xr-x 5 cyber cyber  4096 Jun 24 00:40 .
+drwxr-xr-x 4 root  root   4096 Jun  9 01:55 ..
+-rw------- 1 cyber cyber   937 Jun 21 04:44 .bash_history
+-rw-r--r-- 1 cyber cyber   220 Mar 31  2024 .bash_logout
+-rw-r--r-- 1 cyber cyber  3771 Mar 31  2024 .bashrc
+drwx------ 2 cyber cyber  4096 Apr 22 00:28 .cache
+-rw------- 1 cyber cyber    20 Jun 24 00:40 .lesshst
+drwxrwxr-x 3 cyber cyber  4096 May 22 01:25 Lesson06
+-rw------- 1 cyber cyber   136 Jun 22 04:51 .mysql_history
+-rw-r--r-- 1 cyber cyber  2587 Jun 17 00:39 no10_training.zip
+-rw-r--r-- 1 cyber cyber  1385 Jun  9 02:43 no8_training.zip
+-rw-r--r-- 1 cyber cyber 97004 Jun 12 01:12 no9_training.zip
+-rw-r--r-- 1 cyber cyber   807 Mar 31  2024 .profile
+drwx------ 2 cyber cyber  4096 Apr 22 00:26 .ssh
+-rw-r--r-- 1 cyber cyber     0 May 21 04:18 .sudo_as_admin_successful
+-rw------- 1 cyber cyber  2712 Jun 12 01:33 .viminfo
+cyber@xxxxx:~$
